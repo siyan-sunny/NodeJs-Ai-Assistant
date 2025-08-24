@@ -62,7 +62,7 @@ private readonly TOGETHER_API_URL = "https://api.together.xyz/v1/chat/completion
 
 private async callLLaMA(userQuestion: string, resumeContent: string): Promise<string> {
   try {
-    const response = await fetch("http://localhost:8000/chat", {
+    const response = await fetch("https://resume-assistant-latest.onrender.com/chat", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ question: userQuestion })
