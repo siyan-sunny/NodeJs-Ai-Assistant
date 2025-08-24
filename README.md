@@ -16,7 +16,7 @@ An intelligent chat assistant that analyzes your resume PDF and answers question
 
 ```bash
 # For OpenAI (recommended)
-VITE_OPENAI_API_KEY=your_openai_api_key_here
+VITE_OPENAI_API_KEY=s
 
 # OR for Anthropic Claude
 VITE_ANTHROPIC_API_KEY=your_anthropic_api_key_here
